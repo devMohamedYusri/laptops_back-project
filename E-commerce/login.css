@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:initial;
+}
+.container{
+    width: 100%;
+    height:110vb;
+    background-image:url("bg.jpg") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dad-container{
+    width: 400px;
+    height: 89%;
+    background-color: rgb(0,0,0,.4);
+    border-radius: 10px;
+}
+.dad-container h2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:initial;
+    color:  rgb(211, 211, 211);
+}
+.dad-container form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    color: rgb(211, 211, 211); 
+}
+
+.dad-container form label{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.dad-container form input{
+    border:none;
+    font: 20px;
+    outline: none;
+    padding: 8px 0px;
+    border-bottom:  1.5px solid rgb(143, 123, 153);
+    background: rgb(0,0,0,.1);
+}
+
+.dad-container form input::placeholder{
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.dad-container form span {
+    padding-top: 23px;
+    font-size:18px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: rgb(211, 211, 211);
+    font-family:initial;
+    font-weight: bold;
+}
+.dad-container form .sub{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    color:#f1e8e8;
+    background: rgb(0,0,0,.4);
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+
+.using-other{
+    text-align: center;
+    padding-top:30px;
+    font-size: 17px;
+    font-family:initial;
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+}
+.links{
+    padding-top: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.links a img {
+    width: 40px;
+}
+.link a .google{
+    border-radius: 50%;
+}
+
+.sign-up{
+    font-weight: bold;
+    font-size: 20;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    flex-direction:column ;
+}
+.sign-up span{
+    font-size: 15px;
+    color:rgba(255, 242, 242, 0.811);
+}
+.sign-up a{
+    font-size: 16;
+    color:rgb(145, 127, 163);
+    padding-top: 15px;
+}

@@ -1,0 +1,269 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan',sans-serif;
+}
+/* section1 */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 249, 242);
+    box-shadow: 0 5px rgba(0, 0,0,0.06);
+    position: sticky; 
+    top:0;
+    left:0;
+
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding:0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-family: 16px;
+    font-weight: 600;
+    color: black;
+
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(152, 146, 138);
+}
+
+/* section2 */
+#hero{
+    background-image: url("photo.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+
+.section-p1{
+padding: 40px 80px;
+}
+/* section3 */
+#feature .box{
+width: 180px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 34px rgba(0, 0,0,0.03);
+border:1px solid #cdae9d;
+
+}
+
+#feature .box h6{
+padding: 9px 8px 6px 8px;
+line-height: 1;
+border-radius: 4px;
+color:#ffffff;
+background-color: rgb(68, 104, 138);
+}
+
+#feature{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+
+/* section4 */
+#product1{
+    text-align: center;
+}
+
+#product1.Pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+
+}
+
+.desc-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width:250px;
+    padding: 10px 20px ;  
+    margin:10px;
+    border: 1px solid rgb(74, 73, 125);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0,0,0.01);
+    margin: 15px 0; 
+    transition: 0.2s ease;
+    display: inline-block;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0,0,0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius:20px ;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: rgb(144, 149, 149);
+    font-size: 12px;
+
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color:black;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color:rgb(233, 194, 39);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(34, 115, 65); 
+}
+#product1 .pro .cart{
+    margin-top:70px;
+}
+    
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("banner2.jpg");
+} 
+
+#banner h4{
+    color:#ffffff;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+button.normal{
+    font-size:14px;
+    font-weight: 500;
+    padding:15px 30px;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+    /* shoping page */
+#page-header{
+    background-image: url("bg.jpg");
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+/* details page */
+/* blog page */
+
+#page-header.blog-header{
+    background-image: url("lab/read.jpg");
+    height: 150px;
+
+
+}
+#blog{
+    padding: 100px 100px 0 100px;
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom:10px ;
+}
+
+
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+
+}
+
+
+#blog  img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+} 
+
+#blog .blog-details{
+    width: 50%;
+}
+
+#blog .blog-details a{
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#blog .blog-details a:hover{
+    color: rgb(87, 123, 111);
+}
+
+/* about page */
+
+#page-header.about-header{
+    background-image: url("lab/bgabout.jpg");
+
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left:30px;
+}
+
+

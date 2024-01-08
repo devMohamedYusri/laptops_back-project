@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url("bg.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 45px;
+    margin: 15px 0;
+    width: 950px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "images info"
+    "images description";
+    grid-gap: 35px;
+}
+
+.box .images {
+    grid-area: images;
+    display: grid;
+
+} 
+
+.box .images .img-holder img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+.box .basic-info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box .basic-info .rating {
+    color: #ffb900;
+}
+
+
+    
+
+.box .basic-info span {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.box .basic-info .options a {
+    color: white;
+    background-image: url("bg.jpg");
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.box .basic-info .options a:hover {
+    background-color:#a2738d;
+}
+
+.box .description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box .description p {
+    color:  #808080;
+    font-size: 14px;
+    line-height: 1.5;
+}

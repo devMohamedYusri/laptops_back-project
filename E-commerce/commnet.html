@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+
+            background-image: url("bg.jpg");
+        }
+        
+        #comment {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f2ed;
+        }
+
+        .comment-container {
+            border: 1px solid #010101;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .user-photo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+
+        .comment-text {
+            margin-bottom: 10px;
+        }
+
+        .comment-metadata {
+            font-size: 12px;
+            color: #888;
+        }
+
+        #poll{
+                margin:30px;
+                text-decoration: none;
+                font-size:20px;
+                color :red;
+        }
+
+        #poll:hover{
+                margin:30px;
+                text-decoration: underline;
+                font-size:30px;
+                color :blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="lab/logo.jpg" width="60"    class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="commnet.html">ReView</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><img src="lab/shop.jpg"width="25"  alt=""></li>
+                <li><a href="login.php"><img src="lab/loginicon.jpg"width="27"alt=""></a></li>
+
+            </ul>
+        </div>
+    </section>
+<!-- section2 -->
+    <section id="comment">
+
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user1.jpg" alt="User Photo">
+            <span>User 1</span>
+        </div>
+        <pre class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Animi laboriosam nulla dolorem numquam tempore
+        </pre>
+        <div class="comment-metadata">
+            <span>Date: January 1, 2023</span>
+        </div>
+    </div>
+
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user2.jpg" alt="User Photo">
+            <span>User 2</span>
+        </div>
+        <pre class="comment-text">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Laudantium, maxime!</pre>
+        <div class="comment-metadata">
+            <span>Date: December 31, 2023</span>
+        
+        </div>
+    </div>
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user1.jpg" alt="User Photo">
+            <span>User 1</span>
+        </div>
+        <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="comment-metadata">
+            <span>Date: January 12, 2022</span>
+        </div>
+    </div>
+
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user2.jpg" alt="User Photo">
+            <span>User 2</span>
+        </div>
+        <p class="comment-text">Lorem, ipsum dolor.</p>
+        <div class="comment-metadata">
+            <span>Date: December 30, 2023</span>
+        
+        </div>
+    </div>
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user1.jpg" alt="User Photo">
+            <span>User 1</span>
+        </div>
+        <pre class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laudantium aperiam corrupti veniam.</pre>
+        <div class="comment-metadata">
+            <span>Date: January 1, 2023</span>
+        </div>
+    </div>
+
+    <div class="comment-container">
+        <div class="user-info">
+            <img class="user-photo" src="user2.jpg" alt="User Photo">
+            <span>User 2</span>
+        </div>
+        <p class="comment-text">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="comment-metadata">
+            <span>Date: December 31, 2023</span>
+        </div>
+    </div>
+
+    <div>
+        <a href="poll.html" id="poll"> poll status</a>
+    </div>
+
+</section>
+</body>
+
+</html>

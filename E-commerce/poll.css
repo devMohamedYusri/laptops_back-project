@@ -1,0 +1,70 @@
+
+h2{
+    text-align: center;
+    font-family: Nunito Sans;
+}
+h3{
+    padding-top: flex;
+    margin-top: 20px;
+    padding-bottom: flex;
+    text-align: left;
+    font-family: Nunito Sans;
+    border-top: 2px solid rgb(6, 6, 6);
+}
+form{
+    box-shadow: 1px 1px 10px silver;
+    margin-left: 30%;
+    margin-right:30% ;
+    margin-top: 100px;
+    font-family: Nunito Sans;
+
+}
+#opt-1{
+    margin-left: flex;
+    border:  .1em solid  black;
+    border-radius: 5px;
+    padding: 2px;
+    padding-right: 6%;
+    font-family: Nunito Sans;
+}
+#opt-2{
+
+    margin-left: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    padding-right: 9%;
+    font-family: Nunito Sans;
+}
+#opt-3{
+        margin-left: flex;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 2px;
+        padding-right: 10%;
+        font-family: Nunito Sans;
+}
+#back{
+    cursor: pointer;
+    border: 2px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: silver;
+    color: black;
+    margin-top: 10px;
+    margin-left: 220px;
+    margin-bottom: 35%;
+    font-family: Nunito Sans;
+}
+#next{
+    cursor: pointer;
+    border: 2px;
+    border-radius: 2px;
+    padding-right: 15%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(24, 226, 24);
+    color: white;
+    font-family: Nunito Sans;
+}
